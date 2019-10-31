@@ -190,12 +190,52 @@ Probarlo con la matriz [ [1,2,3], [4,5,6], [7,8,9] ] */
     
     }
     
-/*
+/*Escribe un programa que ordene los números de un vector. Utilizar el 
+algoritmo de la burbuja y probarlo sobre los vectores [4,3,2,1] y [3,2,1,4]. 
+
     
 */
-    public void eje11(){}
-    public void eje12(){}
-    public void eje13(){}
+    public void eje11(){
+    int []vec1={1,2,3,4};
+    int []vec2={3,2,1,4};
+    
+    vec1=a.burbuja(vec1);
+    a.imprimirN(vec1);
+    vec2=a.burbuja(vec2);
+    a.imprimirN(vec2);        
+    
+    
+    }
+    
+/*Escriba un programa simule varios lanzamientos de un dado y muestre la frecuencia de cada una de las
+    caras así como la proporción del número de veces que haya salido cada cara con respecto al total.
+    Para ello simule 6000 lanzamientos de un dado utilizando la función Math.random()*6 para simular cada
+    lanzamiento. 
+*/    
+    public void eje12(){
+        int []vec1=a.arregloRandom(6000,6);
+        double b=0,c=0,d=0,e=0,f=0,g=0;
+        for (int i=0;i<vec1.length;i++){
+        if(vec1[i]==1){b++;}
+        if(vec1[i]==2){c++;}
+        if(vec1[i]==3){d++;}
+        if(vec1[i]==4){e++;}
+        if(vec1[i]==5){f++;}
+        if(vec1[i]==6){g++;}
+        }
+        
+        System.out.println("1: "+b+" fre:"+b*1/60);
+        System.out.println("2: "+c+" fre:"+c*1/60);
+        System.out.println("3: "+d+" fre:"+d*1/60);
+        System.out.println("4: "+e+" fre:"+e*1/60);
+        System.out.println("5: "+f+" fre:"+f*1/60);
+        System.out.println("6: "+g+" fre:"+g*1/60);
+        
+    
+    
+    
+    }
+ 
       
     
     
