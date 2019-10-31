@@ -60,9 +60,7 @@ public class DeberMatrices {
             case 12:
                   a.eje12();
             break;
-            case 13:
-                  a.eje13();
-            break;
+           
             
                 
         }
