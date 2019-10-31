@@ -27,37 +27,37 @@ public class ColecionesYListas {
                   a.eje1();
             break;
              case 2:
-                
+                a.eje2();
             break;
              case 3:
-                  
+                  a.eje3();
             break;
              case 4:
-                
+                a.eje4();
             break;
              case 5:
-                 
+                  a.eje5();
             break;
             case 6:
-                  
+                   a.eje6();
             break;
             case 7:
-                  
+                  a.eje7();
             break;
             case 8:
-               
+               a.eje8();
             break;
             case 9:
-                  
+                  a.eje9();
             break;
              case 10:
-                 
+                 a.eje10();
             break;
             case 11:
-                
+                a.eje11();
             break;
             case 12:
-                 
+                 a.eje12();
             break;
            
     }
